@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "Banana",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fruits_and_stuff/models/item/banana.json",
+          "src/main/java/com/rudithegamer/fruitsandstuff/item/BananaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyCane",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fruits_and_stuff/models/item/candy_cane.json",
+          "src/main/java/com/rudithegamer/fruitsandstuff/item/CandyCaneItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "eating",
+      "files": [
+        "sizzle"
+      ],
+      "category": "neutral",
+      "subtitle": "sugar"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.fruits_and_stuff.banana": "Banana",
+      "item.fruits_and_stuff.candy_cane": "Candy Cane",
+      "subtitles.eating": "sugar"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/rudithegamer/fruitsandstuff/FruitsAndStuffMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fruits_and_stuff",
+    "modName": "Fruits And Stuff",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "com.rudithegamer.fruitsandstuff"
+  },
+  "mcreatorVersion": 202500228610
+}

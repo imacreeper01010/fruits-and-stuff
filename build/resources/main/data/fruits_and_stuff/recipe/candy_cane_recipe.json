@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "fruits_and_stuff:starch"
+    }
+  },
+  "result": {
+    "id": "fruits_and_stuff:candy_cane",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "eating": {
+    "subtitle": "subtitles.eating",
+    "sounds": [
+      {
+        "name": "fruits_and_stuff:sizzle",
+        "stream": false
+      }
+    ]
+  }
+}

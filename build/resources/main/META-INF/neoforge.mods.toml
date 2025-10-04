@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="fruits_and_stuff"
+version="1.0"
+displayName="Fruits And Stuff"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created by RudiTheGamer, officially"
+authors="RudiTheGamer"
+description="A mod that adds simple candy and fruits."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.fruits_and_stuff]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.176,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fruits_and_stuff]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

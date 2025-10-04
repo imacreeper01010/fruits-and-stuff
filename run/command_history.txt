@@ -1,0 +1,21 @@
+/give Dev fruits_and_stuff:banana 1
+/gamemode survival
+/effect give Dev minecraft:saturation infinite
+/attribute Dev minecraft:generic.max_health base set 1999999
+/kill
+/gamemode spectator
+/tp Dev ~ 100000 ~
+/gamemode survival
+/tp Dev ~ 10000 ~
+/tp Dev ~ 3200 ~
+/give Dev fruits_and_stuff:banana 1
+/attribute Dev minecraft:generic.max_health base set 200000000000
+/attribute Dev minecraft:generic.max_health base set 20000
+/attribute Dev minecraft:generic.max_health base set 2000000000000000
+/give Dev fruits_and_stuff:candy_cane
+/gamemode survival
+/give Dev fruits_and_stuff:candy_cane
+/locate poi #minecraft:bee_home
+/give Dev fruits_and_stuff:starch_seeds 1
+/gamemode survival
+/kill @e[type=minecraft:armadillo]

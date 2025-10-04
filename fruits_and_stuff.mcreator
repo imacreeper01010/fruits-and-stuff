@@ -1,0 +1,183 @@
+{
+  "mod_elements": [
+    {
+      "name": "Banana",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fruits_and_stuff/models/item/banana.json",
+          "src/main/java/com/rudithegamer/fruitsandstuff/item/BananaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyCane",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fruits_and_stuff/models/item/candy_cane.json",
+          "src/main/java/com/rudithegamer/fruitsandstuff/item/CandyCaneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SugarRushEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_rush_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/rudithegamer/fruitsandstuff/procedures/SugarRushEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SugarRush",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_rush",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rudithegamer/fruitsandstuff/potion/SugarRushMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Starch",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starch",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rudithegamer/fruitsandstuff/item/StarchItem.java",
+          "src/main/resources/assets/fruits_and_stuff/models/item/starch.json"
+        ]
+      }
+    },
+    {
+      "name": "BananaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/banana_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarchSeeds",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starch_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fruits_and_stuff/models/item/starch_seeds.json",
+          "src/main/resources/data/fruits_and_stuff/neoforge/biome_modifier/starch_seeds_biome_modifier.json",
+          "src/main/resources/data/fruits_and_stuff/loot_table/blocks/starch_seeds.json",
+          "src/main/java/com/rudithegamer/fruitsandstuff/block/StarchSeedsBlock.java",
+          "src/main/resources/data/fruits_and_stuff/worldgen/placed_feature/starch_seeds.json",
+          "src/main/resources/data/fruits_and_stuff/worldgen/configured_feature/starch_seeds.json",
+          "src/main/resources/assets/fruits_and_stuff/blockstates/starch_seeds.json",
+          "src/main/resources/assets/fruits_and_stuff/models/block/starch_seeds.json"
+        ]
+      }
+    },
+    {
+      "name": "CandyCaneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fruits_and_stuff/recipe/candy_cane_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "eating",
+      "files": [
+        "sizzle"
+      ],
+      "category": "neutral",
+      "subtitle": "sugar"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:StarchSeeds"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.fruits_and_stuff.banana": "Banana",
+      "item.fruits_and_stuff.candy_cane": "Candy Cane",
+      "subtitles.eating": "sugar",
+      "effect.fruits_and_stuff.sugar_rush": "Sugar Rush",
+      "item.fruits_and_stuff.starch": "Starch",
+      "block.fruits_and_stuff.starch_seeds": "Starch Seeds"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/rudithegamer/fruitsandstuff/FruitsAndStuffMod.java",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModSounds.java",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/fruits_and_stuff/sounds.json",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModMobEffects.java",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModBlocks.java",
+      "src/main/java/com/rudithegamer/fruitsandstuff/init/FruitsAndStuffModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fruits_and_stuff",
+    "modName": "Fruits And Stuff",
+    "version": "1.0",
+    "description": "A mod that adds simple candy and fruits.",
+    "author": "RudiTheGamer",
+    "websiteURL": "I don\u0027t have one :(",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "fruitsandstufflogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created by RudiTheGamer, officially",
+    "modElementsPackage": "com.rudithegamer.fruitsandstuff"
+  },
+  "mcreatorVersion": 202500228610
+}

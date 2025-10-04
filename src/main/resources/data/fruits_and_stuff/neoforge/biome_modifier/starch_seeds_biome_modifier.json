@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "birch_forest",
+    "forest",
+    "mushroom_fields"
+  ],
+  "features": "fruits_and_stuff:starch_seeds",
+  "step": "vegetal_decoration"
+}
